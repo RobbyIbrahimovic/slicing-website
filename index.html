@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Style - To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOPBAR / BREADCRUMB -->
+    <div class="topbar">
+        <span class="breadcrumb">Tugas / To Do List</span>
+        <span class="status-edit">Baru saja diedit</span>
+    </div>
+
+    <!-- CONTAINER UTAMA -->
+    <div class="container">
+        
+        <div class="header-section">
+            <h1>Todo List</h1>
+            <p class="subtitle">Kerjakan Tugasmu Supaya Dapet IP 4 :] </p>
+        </div>
+
+        <!-- CONTROL BAR: TABS & SEARCH INPUT -->
+        <div class="control-bar">
+            <div class="tabs">
+                <button id="tab-todo" class="tab-btn active">📋 To Do</button>
+                <button id="tab-done" class="tab-btn">☑️ Done</button>
+            </div>
+            
+            <!-- FITUR SEARCH BARU -->
+            <input type="text" id="search-input" placeholder="🔍 Cari tugas...">
+        </div>
+
+        <!-- DAFTAR TUGAS -->
+        <ul id="todo-list"></ul>
+
+        <!-- TOMBOL TAMBAH BARIS BARU INLINE -->
+        <button id="btn-add-inline" class="btn-add-inline">+ New task</button>
+
+    </div>
+
+    <!-- FOOTER IDENTITAS -->
+    <footer>
+        <p><strong>Dibuat Oleh:</strong> Robby Ibrahimovic Wibowo | <strong>NIM:</strong> 252410103020</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
